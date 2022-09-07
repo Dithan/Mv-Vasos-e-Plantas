@@ -1,0 +1,46 @@
+header {
+  background-color: var(--cinza-0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--verde-8);
+  position: relative;
+}
+
+nav a:hover {
+  color: var(--verde-1);
+}
+
+nav a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--verde-1);
+  transition: 0.3s;
+}
+
+nav a:hover:after {
+  width: 80%;
+  position: absolute;
+}
