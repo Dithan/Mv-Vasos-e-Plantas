@@ -1,0 +1,85 @@
+.conheca-bg {
+  background: linear-gradient(var(--verde-3), var(--verde-2));
+}
+
+.conheca {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.conheca::before {
+  content: "";
+  display: block;
+  width: 76px;
+  height: 38px;
+  background: url("../media/detalhe-1.svg");
+  position: absolute;
+  top: -100px;
+  right: 20px;
+}
+
+.conheca h2 {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  color: white;
+  padding: 40px 20px 20px 20px;
+}
+
+.conheca p {
+  font-size: 1.5rem;
+  padding-bottom: 60px;
+  color: var(--cinza-1);
+}
+
+.conheca h3 {
+  font-size: 1.75rem;
+  color: #baf2bb;
+  text-decoration: underline;
+  padding-bottom: 80px;
+}
+
+/* -------MEDIA QUERY------- */
+
+@media (max-width: 1240px) {
+  .conheca h2 {
+    font-size: 2.5rem;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .conheca p {
+    font-size: 1rem;
+    padding-bottom: 40px;
+  }
+
+  .conheca h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .conheca h2 {
+    font-size: 2rem;
+    padding: 15px 20px 20px 20px;
+  }
+
+  .conheca p {
+    font-size: 1rem;
+    padding-bottom: 40px;
+  }
+
+  .conheca h3 {
+    font-size: 1rem;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 810px) {
+  .conheca::before {
+    top: -20px;
+    left: 45%;
+  }
+}
