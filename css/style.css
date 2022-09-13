@@ -1,5 +1,5 @@
 @import "./global.css";
 @import "./header.css";
 @import "./utilidades.css";
-@import "./apresentacao.css";
-@import "./conheca.css";
+@import "./index/apresentacao.css";
+@import "./index/conheca.css";

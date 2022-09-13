@@ -1,5 +1,5 @@
 .conheca-bg {
-  background: linear-gradient(var(--verde-3), var(--verde-2));
+  background: linear-gradient(var(--verde-0), var(--verde-1));
 }
 
 .conheca {
@@ -25,14 +25,14 @@
 .conheca h2 {
   font-size: 3rem;
   letter-spacing: 1.5px;
-  color: white;
+  color: var(--cinza-0);
   padding: 40px 20px 20px 20px;
 }
 
 .conheca p {
   font-size: 1.5rem;
   padding-bottom: 60px;
-  color: var(--cinza-1);
+  color: var(--cinza-0);
 }
 
 .conheca h3 {
