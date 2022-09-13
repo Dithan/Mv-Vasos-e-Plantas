@@ -16,7 +16,7 @@
   display: block;
   width: 76px;
   height: 38px;
-  background: url("../media/detalhe-1.svg");
+  background: url("../../media/detalhe-1.svg");
   position: absolute;
   top: -100px;
   right: 20px;
@@ -81,5 +81,14 @@
   .conheca::before {
     top: -20px;
     left: 45%;
+  }
+
+  .conheca p {
+    font-size: 0.75rem;
+    padding-bottom: 20px;
+  }
+
+  .conheca h3 {
+    padding-bottom: 20px;
   }
 }
