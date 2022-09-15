@@ -12,6 +12,7 @@ li {
 body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  background-color: var(--cinza-0);
 }
 
 ul,
@@ -29,4 +30,12 @@ img {
   display: block;
   object-fit: cover;
   object-position: left;
+}
+
+/* Centralizar sections 1200px */
+.center{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
