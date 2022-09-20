@@ -52,6 +52,11 @@
   transform: scale(1.1);
 }
 
+.p-mobile {
+  text-align: center;
+  display: none;
+}
+
 /* ---------MEDIA QUERY-------- */
 
 @media (max-width: 1000px) {
@@ -65,5 +70,32 @@
   }
   .categorias {
     max-width: 480px;
+  }
+}
+
+@media (max-width: 810px) {
+  .produtos-index {
+    grid-template-columns: 1fr;
+  }
+
+  .lista-produtos {
+    display: none;
+  }
+
+  .categorias {
+    margin: 0 auto;
+  }
+
+  .produtos-index {
+    padding-top: 40px;
+  }
+
+  .produtos-index h2 {
+    margin-bottom: 20px;
+  }
+
+  .p-mobile {
+    display: inline-block;
+    margin-bottom: 20px;
   }
 }
