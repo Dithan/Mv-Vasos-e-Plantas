@@ -6,14 +6,14 @@ header {
 .header {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px 30px;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.header picture:hover{
+.header picture:hover {
   animation: giro 01s;
 }
 
@@ -54,4 +54,3 @@ nav a:hover:after {
   width: 80%;
   position: absolute;
 }
-
