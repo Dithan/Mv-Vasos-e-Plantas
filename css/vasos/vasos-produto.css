@@ -1,0 +1,85 @@
+.vasos-produtos-bg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.vasos-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.vasos-produto {
+  width: 245px;
+  padding: 15px;
+  border: 2px solid var(--verde-0);
+  border-radius: 5px;
+}
+
+.vasos-produto h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: var(--cinza-4);
+}
+
+.vasos-produto div {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--verde-1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.vasos-produto-button {
+  margin-top: px;
+  display: block;
+  text-align: center;
+}
+
+/* -------MEDIA QUERY------- */
+
+@media (max-width: 630px) {
+  .vasos-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .vasos-produto {
+    width: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .vasos-produto h3 {
+    font-size: 1rem;
+  }
+
+  .vasos-produto div {
+    font-size: 0.75rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .vasos-produto-button {
+    font-size: 0.75rem;
+    padding: 7px 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .vasos-produtos {
+    grid-template-columns: 1fr;
+  }
+
+  .vasos-produto {
+    max-width: 245px;
+  }
+}

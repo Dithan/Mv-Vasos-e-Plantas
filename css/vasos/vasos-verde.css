@@ -1,0 +1,50 @@
+.vasos-verde-bg {
+  background: linear-gradient(var(--verde-0), var(--verde-1));
+}
+
+.vasos-verde {
+  text-align: center;
+  color: var(--cinza-0);
+}
+
+.vasos-verde h2 {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  color: var(--cinza-0);
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.vasos-verde p {
+  font-size: 1.75rem;
+  color: #baf2bb;
+  text-decoration: underline;
+  padding-bottom: 80px;
+  font-weight: bold;
+}
+
+@media (max-width: 1240px) {
+  .vasos-verde h2 {
+    font-size: 2.5rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .vasos-verde p {
+    font-size: 1.25rem;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .vasos-verde h2 {
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .vasos-verde p {
+    font-size: 1rem;
+    padding-bottom: 40px;
+  }
+}

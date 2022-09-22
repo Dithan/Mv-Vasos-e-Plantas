@@ -1,3 +1,5 @@
+/* -----HEADER----- */
+
 @import "./global.css";
 @import "./header.css";
 @import "./utilidades.css";
@@ -5,3 +7,9 @@
 @import "./index/apresentacao.css";
 @import "./index/conheca.css";
 @import "./index/produtos.css";
+
+/* -----VASOS----- */
+
+@import "./vasos/intro-vasos.css";
+@import "./vasos/vasos-verde.css";
+@import "./vasos/vasos-produto.css";

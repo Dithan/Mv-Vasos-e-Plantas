@@ -31,7 +31,6 @@
   color: var(--verde-0);
 }
 
-
 .lista-footer::after {
   content: "";
   display: block;
@@ -43,6 +42,7 @@
 
 .footer p {
   text-align: center;
+  font-size: 1rem;
   color: var(--cinza-2);
 }
 

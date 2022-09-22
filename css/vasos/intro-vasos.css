@@ -1,0 +1,39 @@
+.intro-vasos-bg{
+  box-shadow: inset 0 -80px var(--verde-0);
+
+}
+
+.intro-vasos {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.intro-vasos p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.intro-vasos p strong {
+  color: var(--verde-1);
+}
+
+.intro-vasos picture {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-vasos picture img {
+  width: 100vh;
+  max-height: 175px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* -------MEDIA QUERY------- */
+
+@media (max-width: 810px) {
+
+  .intro-vasos picture img {
+    height: 100px;
+  }
+}
