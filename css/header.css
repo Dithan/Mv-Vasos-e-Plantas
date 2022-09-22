@@ -6,10 +6,21 @@ header {
 .header {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.header picture:hover{
+  animation: giro 01s;
+}
+
+@keyframes giro {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 nav ul {

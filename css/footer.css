@@ -27,6 +27,11 @@
   color: var(--cinza-0);
 }
 
+.lista-footer ul a:hover {
+  color: var(--verde-0);
+}
+
+
 .lista-footer::after {
   content: "";
   display: block;
