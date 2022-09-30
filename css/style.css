@@ -16,3 +16,6 @@
 /*-----PLANTAS-----*/
 @import "./plantas/plantas-categorias.css";
 @import "./plantas/plantas-produtos.css";
+
+/*-----SERVIÇOS-----*/
+@import "./servicos/servicos.css";

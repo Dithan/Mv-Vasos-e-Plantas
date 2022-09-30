@@ -23,6 +23,8 @@
   font-weight: bold;
 }
 
+/*-----MEDIA QUERY-----*/
+
 @media (max-width: 1240px) {
   .verde h2 {
     font-size: 2.5rem;
