@@ -1,0 +1,75 @@
+.plantas-categorias {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.plantas-categorias::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  background: var(--cinza-1);
+  margin: 0 auto;
+}
+
+.plantas-categorias h2 {
+  font-size: 3rem;
+}
+
+.plantas-escolha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 600px;
+  margin: 40px auto 80px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.plantas-escolha a {
+  padding: 7px 14px;
+  border-radius: 5px;
+  border: 2px solid var(--verde-0);
+  font-size: 1.5rem;
+  color: var(--cinza-5);
+}
+
+.plantas-escolha a:hover {
+  background: linear-gradient(var(--verde-2), var(--verde-1));
+}
+
+@media (max-width: 1240px) {
+  .plantas-categorias {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .plantas-categorias h2 {
+    font-size: 2.5rem;
+  }
+
+  .plantas-escolha {
+    margin-top: 30px;
+  }
+
+  .plantas-escolha a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .plantas-categorias h2 {
+    font-size: 2rem;
+  }
+
+  .plantas-escolha a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 260px) {
+  .plantas-escolha {
+    justify-content: start;
+  }
+}

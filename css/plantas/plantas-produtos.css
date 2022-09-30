@@ -1,0 +1,26 @@
+.plantas-categoria {
+  margin-bottom: 80px;
+}
+
+.plantas-categoria .produtos {
+  margin-bottom: 80px;
+}
+
+.plantas-categoria::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  background: var(--cinza-1);
+  margin: 0 auto;
+}
+
+.plantas-categoria h2 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1240px) {
+  .plantas-categoria h2 {
+    text-align: center;
+  }
+}

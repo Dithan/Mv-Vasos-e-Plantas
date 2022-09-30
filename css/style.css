@@ -1,15 +1,18 @@
-/* -----HEADER----- */
-
 @import "./global.css";
 @import "./header.css";
 @import "./utilidades.css";
 @import "./footer.css";
+@import "./dropdown-menu.css";
+@import "./intro.css";
+@import "./verde.css";
+@import "./produto.css";
+
+/* -----INDEX----- */
+
 @import "./index/apresentacao.css";
 @import "./index/conheca.css";
 @import "./index/produtos.css";
 
-/* -----VASOS----- */
-
-@import "./vasos/intro-vasos.css";
-@import "./vasos/vasos-verde.css";
-@import "./vasos/vasos-produto.css";
+/*-----PLANTAS-----*/
+@import "./plantas/plantas-categorias.css";
+@import "./plantas/plantas-produtos.css";

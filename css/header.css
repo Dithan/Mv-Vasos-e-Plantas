@@ -35,6 +35,8 @@ nav a {
   font-size: 1.25rem;
   color: var(--verde-8);
   position: relative;
+  padding: 10px;
+  display: inline-block;
 }
 
 nav a:hover {
@@ -51,6 +53,6 @@ nav a::after {
 }
 
 nav a:hover:after {
-  width: 80%;
+  width: 60%;
   position: absolute;
 }
