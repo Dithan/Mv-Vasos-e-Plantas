@@ -68,8 +68,14 @@
   }
 }
 
-@media (max-width: 260px) {
+@media (max-width: 420px) {
   .plantas-escolha {
-    justify-content: start;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .plantas-categorias a {
+    font-size: 1.25rem;
   }
 }
