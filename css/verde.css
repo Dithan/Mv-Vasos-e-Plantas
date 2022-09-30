@@ -5,6 +5,7 @@
 .verde {
   text-align: center;
   color: var(--cinza-0);
+  padding-bottom: 60px;
 }
 
 .verde h2 {
