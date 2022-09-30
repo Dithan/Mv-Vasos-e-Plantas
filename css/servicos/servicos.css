@@ -48,13 +48,13 @@
     max-width: 300px;
   }
 
-  .servico a{
+  .servico a {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 900px){
-  .servicos{
+@media (max-width: 900px) {
+  .servicos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -63,61 +63,61 @@
     gap: 20px;
   }
 
-  .justfy-1{
+  .justfy-1 {
     justify-self: start;
   }
 
-  .justfy-2{
+  .justfy-2 {
     justify-self: end;
   }
 
-  .servico{
+  .servico {
     grid-template-columns: 1fr;
     max-width: 300px;
   }
 
-  .servico picture{
+  .servico picture {
     grid-column: 1;
     grid-row: 1;
   }
 
-  .servico h2{
+  .servico h2 {
     grid-column: 1;
     grid-row: 2;
   }
 
-  .servico p{
+  .servico p {
     grid-column: 1;
     grid-row: 3;
   }
 
-  .servico a{
+  .servico a {
     grid-column: 1;
     grid-row: 4;
   }
 }
 
-
-@media(max-width:680px){
-  .servico h2{
+@media (max-width: 680px) {
+  .servico h2 {
     font-size: 1.5rem;
   }
 
-  .servico p{
+  .servico p {
     font-size: 1rem;
   }
 
-  .servico a{
+  .servico a {
     font-size: 0.9rem;
   }
 }
 
-@media(max-width:535px){
-  .servicos{
+@media (max-width: 535px) {
+  .servicos {
     grid-template-columns: 1fr;
   }
 
-  .justfy-1, .justfy-2{
+  .justfy-1,
+  .justfy-2 {
     justify-self: center;
   }
 }

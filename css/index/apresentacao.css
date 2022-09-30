@@ -30,6 +30,11 @@
   color: var(--marron-4);
 }
 
+.apresentacao p span{
+  color: var(--verde-3);
+  font-weight: bold;
+}
+
 /* -------MEDIA QUERY------- */
 
 @media (max-width: 1240px) {
