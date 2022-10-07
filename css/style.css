@@ -8,7 +8,6 @@
 @import "./produto.css";
 
 /* -----INDEX----- */
-
 @import "./index/apresentacao.css";
 @import "./index/conheca.css";
 @import "./index/produtos.css";
@@ -19,3 +18,6 @@
 
 /*-----SERVIÇOS-----*/
 @import "./servicos/servicos.css";
+
+/*-----CONTATO-----*/
+@import "./contato/contato.css";
