@@ -26,6 +26,11 @@
   grid-row: 2 / 4;
 }
 
+.tel-li {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
 .whatsapp {
   grid-column: 2;
   grid-row: 1 / 2;
