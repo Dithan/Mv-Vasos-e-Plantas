@@ -5,7 +5,7 @@
 .contato-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
   gap: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -26,8 +26,13 @@
   grid-row: 2 / 4;
 }
 
+.whatsapp {
+  grid-column: 2;
+  grid-row: 1 / 2;
+}
+
 .telefone {
-  grid-row: 1 / 3;
+  grid-row: 2 / 3;
 }
 
 .telefone,
@@ -36,7 +41,8 @@
 }
 
 .telefone a,
-.rota a {
+.rota a,
+.whatsapp a {
   display: block;
   color: var(--cinza-5);
   font-size: 1.5rem;
@@ -49,20 +55,21 @@
 }
 
 .telefone a:hover,
-.rota a:hover {
+.rota a:hover,
+.whatsapp a:hover {
   background: linear-gradient(var(--verde-1), var(--verde-2));
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--cinza-0);
 }
 
-.telefone a span {
+.whatsapp a span {
   display: inline-block;
   width: 20px;
   margin-right: 5px;
 }
 
 .rota {
-  grid-row: 3 / 5;
+  grid-row: 3 / 4;
 }
 
 /* ---------MEDIA QUERY-------- */
@@ -75,12 +82,13 @@
 
   .rota,
   .telefone,
-  .horarios {
+  .horarios,
+  .whatsapp {
     grid-row: initial;
     grid-column: 1;
   }
 
-  .contato{
+  .contato {
     padding-top: 25px;
   }
 
