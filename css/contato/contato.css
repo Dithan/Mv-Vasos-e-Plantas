@@ -101,12 +101,14 @@
 @media (max-width: 420px) {
   .endereco a,
   .rota a,
-  .telefone a {
+  .telefone a,
+  .whatsapp a {
     font-size: 1.25rem;
   }
 
   .rota a,
-  .telefone a {
+  .telefone a,
+  .whatsapp a {
     padding: 10px;
     line-height: 1.5;
   }
