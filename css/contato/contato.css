@@ -2,6 +2,19 @@
   padding-top: 50px;
 }
 
+.mapa iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.mapa{
+  display: block;
+  max-width: 1200px;
+  height: 60vh;
+  border: 2px solid var(--verde-0);
+  border-radius: 5px;
+}
+
 .contato-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -80,6 +93,10 @@
 /* ---------MEDIA QUERY-------- */
 
 @media (max-width: 810px) {
+  .mapa{
+  height: 40vh;
+  }
+
   .contato-grid {
     grid-template-columns: 1fr;
     grid-template-rows: initial;
@@ -104,6 +121,10 @@
 }
 
 @media (max-width: 420px) {
+  .mapa{
+    height: 30vh;
+    }
+
   .endereco a,
   .rota a,
   .telefone a,
