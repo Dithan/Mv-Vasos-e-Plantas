@@ -22,6 +22,10 @@
   box-shadow: 10px 20px 50px -30px #113f11c5;
 }
 
+.produto picture img{
+  border-radius: 6px;
+}
+
 .produto h3 {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
