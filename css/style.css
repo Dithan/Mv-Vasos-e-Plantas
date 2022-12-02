@@ -13,6 +13,7 @@
 @import "./index/apresentacao.css";
 @import "./index/conheca.css";
 @import "./index/produtos.css";
+@import "./index/promocao.css";
 
 /*-----PLANTAS-----*/
 @import "./plantas/plantas-categorias.css";

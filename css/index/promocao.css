@@ -1,0 +1,23 @@
+.promoheader{
+  padding: 5px;
+  text-align: center;
+  background-color: #d23131;
+  color: #ffffff;
+}
+
+.promoheader a{
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media(max-width: 768px){
+  .promoheader{
+    font-size: 0.75rem;
+    padding: 10px;
+  }
+
+  .promoheader a{
+    padding: 4px;
+  }
+}
