@@ -107,19 +107,19 @@
   }
 
   .produtos-index h2 {
-    grid-row: 2;
-    margin-top: 50px;
+    grid-row: 1;
+    margin-top: 25px;
   }
 
-.promobtn{
-  font-size: 1rem;
-  padding: 8px 30px;
-}
+  .promobtn{
+    font-size: 1rem;
+    padding: 8px 30px;
+  }
 
 
-  /* .lista-produtos {
+  .lista-produtos {
     display: none;
-  } */
+  }
 
   .categorias {
     margin: 0 auto;
